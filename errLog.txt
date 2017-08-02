@@ -1,0 +1,33 @@
+网站地址：http://www.jizzkontu.com/videos/1469754
+[Failure instance: Traceback: <class 'KeyError'>: 'channel'
+C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\threading.py:916:_bootstrap_inner
+C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\threading.py:864:run
+C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\twisted\_threads\_threadworker.py:46:work
+C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\twisted\_threads\_team.py:190:doWork
+--- <exception caught here> ---
+C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\twisted\python\threadpool.py:250:inContext
+C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\twisted\python\threadpool.py:266:<lambda>
+C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\twisted\python\context.py:122:callWithContext
+C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\twisted\python\context.py:85:callWithContext
+C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\twisted\enterprise\adbapi.py:477:_runInteraction
+C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\twisted\python\compat.py:477:reraise
+C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\twisted\enterprise\adbapi.py:467:_runInteraction
+D:\workspace\spider\movie\movie\pipelines.py:64:do_insert
+C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\scrapy\item.py:59:__getitem__
+]网站地址：http://www.jizzkontu.com/videos/1469754
+[Failure instance: Traceback: <class 'KeyError'>: 'channel'
+C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\threading.py:916:_bootstrap_inner
+C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\threading.py:864:run
+C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\twisted\_threads\_threadworker.py:46:work
+C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\twisted\_threads\_team.py:190:doWork
+--- <exception caught here> ---
+C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\twisted\python\threadpool.py:250:inContext
+C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\twisted\python\threadpool.py:266:<lambda>
+C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\twisted\python\context.py:122:callWithContext
+C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\twisted\python\context.py:85:callWithContext
+C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\twisted\enterprise\adbapi.py:477:_runInteraction
+C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\twisted\python\compat.py:477:reraise
+C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\twisted\enterprise\adbapi.py:467:_runInteraction
+D:\workspace\spider\movie\movie\pipelines.py:64:do_insert
+C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\scrapy\item.py:59:__getitem__
+]
