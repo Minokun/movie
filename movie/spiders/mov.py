@@ -37,10 +37,15 @@ class MovSpider(scrapy.Spider):
 
     def parse_detail(self,response):
         import re
+        import codecs
         p = re.compile(r"(http:\/\/cdn.*?)\"")
         res = p.findall(str(response.body))
+        for index, val in enumerate(res):
+            if re.match('http://.*?\.m$', val):
+                del res[index]
         video_url = '\r\n'.join(res)
-
+        with codecs.open('mov.txt','a','utf-8') as f:
+            f.write(video_url + '\r\n')
         item_loader = MovItem(item=MovieItem(),response=response)
         item_loader.add_value("url",response.url)
         item_loader.add_value("thumb",response.meta.get("thumb"))
