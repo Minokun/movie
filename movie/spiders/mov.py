@@ -38,11 +38,13 @@ class MovSpider(scrapy.Spider):
     def parse_detail(self,response):
         import re
         import codecs
-        p = re.compile(r"(http:\/\/cdn.*?)\"")
+        p = re.compile(r'(http:\/\/cdn.*?_240.mp4.*?\")')
         res = p.findall(str(response.body))
-        for index, val in enumerate(res):
-            if re.match('http://.*?\.m$', val):
-                del res[index]
+        res = re.sub('"', '', res[0]).split(':')
+        res = 'http:' + res[len(res)-1]
+        # for index, val in enumerate(res):
+        #     if re.match('http://.*?\.m$', val):
+        #         del res[index]
         video_url = '\r\n'.join(res)
         with codecs.open('mov.txt','a','utf-8') as f:
             f.write(video_url + '\r\n')
